@@ -6,7 +6,7 @@
 .mv-sbb-bothl{ border-top: thin solid #808080; border-bottom: thin solid #808080; padding-top: 5px; padding-bottom: 5px; overflow: hidden }
 .mv-sb-left{ text-align: left }
 .mv-sb-left a{ border: 0 !important; margin-right: 5px }
-.mv-sb-right{ text-align: right }
-.mv-sb-right a{ border: 0 !important; margin-left: 5px }
+.mv-sb-right{ text-align: right; margin-right: 20px; }
+.mv-sb-right a{ border: 0 !important; margin-left: 5px; padding-top: 56px; padding-left: 3px; }
 .mv-sb-center{ margin-left: auto; margin-right: auto; text-align: center !important }
 .mv-sb-center a{ border: 0 !important; margin-left: 5px }
