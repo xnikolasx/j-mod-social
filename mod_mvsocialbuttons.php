@@ -10,6 +10,7 @@ $doc = JFactory::getDocument();
 if($params->get("loadCss")) {
     $doc->addStyleSheet($urlPath . "style.css");
 }
+$doc->addScript($urlPath . "js/social_share.js");
 $link  	 	= JURI::getInstance()->toString();
 $title  	= $doc->getTitle();
 $title      = rawurlencode($title);

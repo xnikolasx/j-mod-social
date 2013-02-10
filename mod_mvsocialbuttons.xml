@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="2.5" client="site" method="upgrade">
 	<name>MOD_MVSOCIALBUTTONS</name>
-	<author>Vladimir Maidanichenko</author>
-	<copyright>Copyright (C) 2012 Vladimir Maidanichenko ( Joomlamaster.org.ua )</copyright>
+	<author>Jookolas (aka n.koshenkov) Remix &amp; Vladimir Maidanichenko</author>
+	<copyright>Copyright (C) 2013 jookolas ( jookolas.ru )</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html</license>
-	<authorEmail>support@joomlamaster.org.ua</authorEmail>
-	<authorUrl>http://joomlamaster.org.ua</authorUrl>
+	<authorEmail>owner@jookolas.ru</authorEmail>
+	<authorUrl>http://jookolas.ru</authorUrl>
 	<version>3.0</version>
-	<creationDate>2012-12-14</creationDate>
-	<description>MOD_MVSOCIALBUTTONS_DESC</description>
+	<creationDate>2013-02-01</creationDate>
+	<description>Jookolas Remix: MOD_MVSOCIALBUTTONS_DESC</description>
 	
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.mod_mvsocialbuttons.ini</language>
@@ -29,6 +29,7 @@
 		<filename>shorturl.php</filename>
 		<folder>images</folder>
 		<folder>tmpl</folder>
+        <folder>js</folder>
 	</files>
 	
     <help url="MOD_MVSOCIALBUTTONS_HELP_URL" />
@@ -41,6 +42,7 @@
                    <option value="socialmini">Social Small 16x16px</option>
                    <option value="socialsmall">Social Small 32x32px</option>
                    <option value="socialbig">Social Big 64x64px</option>
+                   <option value="jookolas">Jookolas Remix 64x64px</option>
 				</field>
 									
 				<field name="showTitle" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_TITLE" description="MOD_MVSOCIALBUTTONS_DISPLAY_TITLE_DESC" >
@@ -62,45 +64,22 @@
 				   <option value="mv-sb-center">MOD_MVSOCIALBUTTONS_CENTER</option>
 				</field>
 				
-				<field name="displayDelicious" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_DELICIOUS" description="MOD_MVSOCIALBUTTONS_DISPLAY_DELICIOUS_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
-				<field name="displayDigg" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_DIGG" description="MOD_MVSOCIALBUTTONS_DISPLAY_DIGG_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
 				<field name="displayFacebook" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_FACEBOOK" description="MOD_MVSOCIALBUTTONS_DISPLAY_FACEBOOK_DESC" >
 				   <option value="0">JNO</option>
                    <option value="1">JYES</option>
 				</field>
+
 				<field name="displayGoogle" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_GOOGLE" description="MOD_MVSOCIALBUTTONS_DISPLAY_GOOGLE_DESC" >
 				   <option value="0">JNO</option>
                    <option value="1">JYES</option>
 				</field>
+
 				<field name="displayLinkedIn" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_LINKEDIN" description="MOD_MVSOCIALBUTTONS_DISPLAY_LINKEDIN_DESC" >
 				   <option value="0">JNO</option>
                    <option value="1">JYES</option>
 				</field>
-				<field name="displaySumbleUpon" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_SUMBLEUPON" description="MOD_MVSOCIALBUTTONS_DISPLAY_SUMBLEUPON_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
-				<field name="displayTechnorati" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_TECHNORATI" description="MOD_MVSOCIALBUTTONS_DISPLAY_TECHNORATI_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
+
 				<field name="displayTwitter" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_TWITTER" description="MOD_MVSOCIALBUTTONS_DISPLAY_TWITTER_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
-				
-				<field name="displayBobrdobr" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_BOBRDOBR" description="MOD_MVSOCIALBUTTONS_DISPLAY_BOBRDOBR_DESC" >
-				   <option value="0">JNO</option>
-                   <option value="1">JYES</option>
-				</field>
-				
-				<field name="displayLiveinternet" type="radio" class="btn-group" default="1" label="MOD_MVSOCIALBUTTONS_DISPLAY_LIVEINTERNET" description="MOD_MVSOCIALBUTTONS_DISPLAY_LIVEINTERNET_DESC" >
 				   <option value="0">JNO</option>
                    <option value="1">JYES</option>
 				</field>
